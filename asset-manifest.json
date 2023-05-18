@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kasa-app/static/css/main.47b4c609.css",
-    "main.js": "/kasa-app/static/js/main.6f22d179.js",
-    "static/media/aboutBackground.jpg": "/kasa-app/static/media/aboutBackground.ff63522436daac87e27d.jpg",
-    "static/media/bannerBackground.jpg": "/kasa-app/static/media/bannerBackground.8f08c0a4f78961b8cb18.jpg",
-    "index.html": "/kasa-app/index.html",
-    "main.47b4c609.css.map": "/kasa-app/static/css/main.47b4c609.css.map",
-    "main.6f22d179.js.map": "/kasa-app/static/js/main.6f22d179.js.map"
+    "main.css": "/static/css/main.597534bf.css",
+    "main.js": "/static/js/main.6f22d179.js",
+    "static/media/aboutBackground.jpg": "/static/media/aboutBackground.ff63522436daac87e27d.jpg",
+    "static/media/bannerBackground.jpg": "/static/media/bannerBackground.8f08c0a4f78961b8cb18.jpg",
+    "index.html": "/index.html",
+    "main.597534bf.css.map": "/static/css/main.597534bf.css.map",
+    "main.6f22d179.js.map": "/static/js/main.6f22d179.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b4c609.css",
+    "static/css/main.597534bf.css",
     "static/js/main.6f22d179.js"
   ]
 }
