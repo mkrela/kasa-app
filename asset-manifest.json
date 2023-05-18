@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/P7-Kasa/static/css/main.d23f70d0.css",
+    "main.js": "/P7-Kasa/static/js/main.6f22d179.js",
+    "static/media/aboutBackground.jpg": "/P7-Kasa/static/media/aboutBackground.ff63522436daac87e27d.jpg",
+    "static/media/bannerBackground.jpg": "/P7-Kasa/static/media/bannerBackground.8f08c0a4f78961b8cb18.jpg",
+    "index.html": "/P7-Kasa/index.html",
+    "main.d23f70d0.css.map": "/P7-Kasa/static/css/main.d23f70d0.css.map",
+    "main.6f22d179.js.map": "/P7-Kasa/static/js/main.6f22d179.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d23f70d0.css",
+    "static/js/main.6f22d179.js"
+  ]
+}
