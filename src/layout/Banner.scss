@@ -1,0 +1,46 @@
+@use "../scss/variables.scss" as *;
+
+.banner {
+  position: relative;
+  min-height: 140px;
+  margin: auto;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  background-image: url("../../public/bannerBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.8);
+  margin-bottom: 2rem;
+  max-width: 100%;
+
+  // Add a semi-transparent overlay over the background image
+  &::before {
+    position: absolute;
+    border-radius: 2rem;
+    content: "";
+    inset: 0;
+    opacity: 0.5;
+  }
+  // Style the heading text
+  h2 {
+    color: $color-tertiary;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 0 0 10px $background-dark;
+    font-weight: 400;
+  }
+
+  // Add responsive styles
+  @media screen and (max-width: 768px) {
+    padding: 0 1rem;
+    min-height: 111px;
+    font-size: 24px;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}

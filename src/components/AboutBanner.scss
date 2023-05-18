@@ -1,0 +1,11 @@
+.about__image{
+    background-image: url("../../public/aboutBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.75);
+    width: 100%;
+    min-height: 140px;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}

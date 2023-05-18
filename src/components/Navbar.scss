@@ -1,0 +1,67 @@
+@use "../scss/variables.scss" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: $color-primary;
+  font-weight: 700;
+  gap: 2rem;
+  > * {
+    width: 50vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: medium;
+    word-wrap: normal;
+    svg {
+      height: 35px !important;
+      text-align: center;
+      width: auto;
+    }
+  }
+
+  & > *:first-child {
+    margin-right: auto;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $color-primary;
+
+    &.active,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.navbar__links {
+  font-size: larger;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: end;
+  gap: 2rem;
+  > * {
+    padding: 1rem;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar__links {
+      font-size: 12px;
+      justify-content: end;
+      padding-right: 0;
+      width: auto;
+      > a > div {
+        font-size: 12px;
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@use "../scss/variables.scss" as colors;
+
+/* Styles for a grid container */
+.grid {
+  background-color: colors.$background-dark; /* Set background color using a variable from the imported scss file */
+  min-height: 50vh;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+  
+  /* Styles for grid items */
+  & > * {
+    width: 100%;
+    flex-basis: 30%;
+    max-width: 30rem;
+  }
+  a > img{
+    min-width: 200px;
+    object-fit: cover;
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .grid {
+    justify-content: center;
+    background-color: colors.$grid-background-light; /* Use another variable from the imported scss file for background color */
+    padding: 0;
+    
+    /* Styles for grid items on smaller screens */
+    & > * {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+}
